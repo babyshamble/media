@@ -1,0 +1,39 @@
+.list-main-e-foucs {
+	color: #FEFF0D !important;
+}
+
+.list-main-e {
+	color: #FFFFB6;
+}
+
+.fmovie-main-e-foucs {
+    border: 2px solid rgb(222, 255, 0) !important;
+    box-shadow: 0 0 5px 5px rgba(222, 255, 0, 0.49) !important;
+}
+
+#fmovie-main-move li:hover {
+	border: 2px solid rgb(222, 255, 0) !important;
+    box-shadow: 0 0 5px 5px rgba(222, 255, 0, 0.49) !important;
+}
+
+.tmovie-main-e-foucs {
+    border: 2px solid rgb(222, 255, 0) !important;
+    box-shadow: 0 0 5px 5px rgba(222, 255, 0, 0.49) !important;
+}
+
+#tmovie-main-move li:hover {
+	border: 2px solid rgb(222, 255, 0) !important; 
+    box-shadow: 0 0 5px 5px rgba(222, 255, 0, 0.49) !important;
+}
+
+.list-main-e:hover {
+    color: #FEFF0D !important;
+}
+
+#art-main {
+    color: #FFF;
+}
+
+.art-sentence-foucs  {
+	color: #FEFF0D !important;
+}

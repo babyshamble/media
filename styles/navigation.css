@@ -1,0 +1,71 @@
+#navigation {
+	position: absolute;
+	left: 0;top: 0;
+	right: 0;bottom: 0;
+	color: #5F5F5D;
+    font-size: 35px;
+}
+
+#navigation-logo{
+    position: absolute;
+    top: 0;
+    width: 1200px;
+    left: 50%;
+    top: 0;
+    margin-left: -600px;
+    height: 333px;
+    background-image: url(../images/movie.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#navigation-limit {
+	position: absolute;
+    top: 333px;
+    bottom: 0;
+    width: 1000px;
+    left: 50%;
+    margin-left: -500px;
+}
+
+#navigation-cata {
+	width: 1000px;
+	height: 50px;
+}
+
+#navigation-cata li {
+	float: left;
+    width: 250px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 40px;
+    color: #5f5f5d;
+}
+
+.navigation-cata-focus {
+    background-image: url(../images/on.png);
+    background-repeat: no-repeat;
+    background-position:center center;
+	color: #fff !important;
+}
+
+#navigation-list {
+	position: absolute;
+	top: 70px;
+	left: 0;
+	width: 250px;
+}
+
+#navigation-list li {
+	width: 250px;
+	height: 75px;
+	text-align: center;
+	line-height: 75px;
+}
+
+.navigation-list-focus {
+    background-image: url(../images/lson.png);
+    background-repeat: no-repeat;
+    background-position:center center;
+	color: #fff !important;
+}

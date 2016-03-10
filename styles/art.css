@@ -1,0 +1,156 @@
+#art {
+    position: absolute;
+    left: 50px;
+    top: 0;
+    right: 0;
+    height: 100%;
+    z-index: 1;
+    background-color: #040404;
+    display: none;
+    color: #fff;
+    list-style: none
+    overflow: auto;
+    font-size: 52px;
+
+    cursor: url(../images/b3.cur),auto;
+    cursor: url(../images/b3.cur),-moz-zoom-out;
+}
+
+#art-cont {
+    position: absolute;
+    top: 10px;
+    bottom: 80px;
+    left: 0px;
+    right: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#art-header {
+    width: 100%;
+    height: 100px;
+}
+
+#art-close {
+    width: 160px;
+    height: 60px;
+    float: left;
+}
+
+#art-list {
+    width: 160px;
+    height: 60px;
+    float: right;
+}
+
+#art-close-text,
+#art-list-text,
+#art-close-img,
+#art-list-img {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+#art-close-img {
+    float: left;
+}
+
+#art-close-text {
+    float: right;
+}
+
+#art-list-img {
+    float: right;
+}
+
+#art-list-text {
+    float: left;
+}
+
+#art-main {
+    position: absolute;
+    top: 40px;
+    bottom: 0px;
+    left: 80px;
+    right: 80px;
+    color: #959A97;
+}
+
+#art-main-move {
+}
+
+#art-main-move >p {
+    line-height: 100px;
+	letter-spacing: 10px;
+	font-size: 60px;
+}
+
+#art-title {
+    position: absolute;
+    height: 60px;
+    bottom: 20px;
+    left: 80px;
+    right: 80px;
+    background-color: #DFDFDF;
+	display: block;
+}
+
+#art-title-text {
+    position: absolute;
+    left: 20px;
+    top: 0;
+    bottom: 0;
+    right: 200px;
+}
+
+#art-title-text>p {
+    line-height: 60px;
+    overflow: hidden;
+    white-space:nowrap; 
+    text-overflow:ellipsis; 
+    text-align: left;
+    color: #171717;
+}
+
+#art-title-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 40px;
+    background-image: url(../images/biao.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.art-chapter-foucs {
+   
+}
+
+.art-sentence-foucs {
+    color: #FFF;
+    font-size: 70px;
+}
+
+#art-prev {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    display: none;
+}
+
+#art-next {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    display: none;
+}
+
+#art-stop {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    display: none;
+}

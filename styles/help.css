@@ -1,0 +1,156 @@
+#help {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100px;
+    z-index: 12;
+    color: #fff;
+    list-style: none;
+    font-size: 48px;
+
+    background-color: #030303;
+}
+
+#help-introduction,
+#help-set,
+#help-vol,
+#help-back {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+
+	background: url(../images/slider.png);
+	display: block;
+	margin-left: 18px;
+}
+
+#help-back {
+    top: 5%;
+	background-position: 0 0;
+}
+
+#help-back:hover{   
+	background-position: 0 -320px;
+}
+
+
+#help-back-float {
+    width: 300px;
+    height: 100px;
+    background-color: #fff;
+    position: absolute;
+    top: 5%;
+    left: 105px;
+
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: #000;
+
+    display: none;
+}
+
+#help-introduction {
+    top: 40%;
+	background-position: 0 -64px;
+}
+
+#help-introduction:hover {
+	background-position: 0 -384px;
+}
+
+#help-introduction-float {
+    width: 300px;
+    height: 100px;
+    background-color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 105px;
+
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: #000;
+
+    display: none;
+}
+
+#help-set {
+    top: 55%;
+	background-position: 0 -128px;
+}
+
+#help-set:hover {
+	background-position: 0 -448px;
+}
+
+
+#help-set-float {
+    width: 300px;
+    height: 100px;
+    background-color: #fff;
+    position: absolute;
+    top: 55%;
+    left: 105px;
+
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: #000;
+
+    display: none;
+}
+
+#help-vol {
+    top: 70%;
+    background-position: 0 -194px;
+}
+
+#help-vol-float {
+    width: 300px;
+    height: 100px;
+    background-color: #fff;
+    position: absolute;
+    top: 70%;
+    left: 105px;
+
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: #000;
+
+    display: none;
+}
+
+#help-desk {
+	position: absolute;
+	bottom: 40px;
+	left: 18px;
+    width: 64px;
+    height: 64px;
+	background: url(../images/client1.png) no-repeat;
+	
+}
+
+#help-desk-float {
+    width: 300px;
+    height: 70px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 20px;
+    left: 105px;
+
+    font-size: 35px;
+    line-height: 70px;
+    text-align: center;
+    color: #000;
+
+    display: none;
+}
+
+#help-back-float, #help-introduction-float, #help-set-float,
+#help-vol-float, #help-desk-float {
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+    border-radius:15px;  
+}

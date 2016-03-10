@@ -1,0 +1,11 @@
+#base{
+	position: absolute;
+	left: 0;top: 0;
+	right: 0;bottom: 0;
+	overflow: hidden;
+	background-color: #010101;
+
+    cursor: url(../images/b3.cur),auto;
+    cursor: url(../images/b3.cur),-moz-zoom-out;
+}
+

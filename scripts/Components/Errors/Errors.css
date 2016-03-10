@@ -1,0 +1,82 @@
+#components-errors{ 
+	width: 100%;
+	height: 100%;
+	background: url('images/grid.png') top left repeat;
+	overflow: hidden;
+}
+
+#components-errors-clouds{ 
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 50%;
+	min-height: 200px;
+}
+
+#components-errors-text{ 
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 50%;
+	min-height: 180px;
+	text-align: center;
+}
+
+#components-errors-text a{ 
+	color: red;
+}
+
+#components-errors-abstract{ 
+	padding-top: 16px;
+}
+
+.components_errors_cloudsx64{ 
+	width: 64px;
+	height: 64px;
+	background: url('images/cloud_whitex64.png') center center no-repeat;
+}
+
+.components_errors_cloudsx128{ 
+	width: 128px;
+	height: 128px;
+	background: url('images/cloud_whitex128.png') center center no-repeat;
+}
+
+.components_errors_rocketx64{ 
+	width: 64px;
+	height: 64px;
+	background: url('images/rocket_x64.png') center center no-repeat;
+}
+
+.components_errors_rocketx128{
+	background-image: url('images/rocket_x128.png');
+	background-size: 100% 100%;
+}
+
+#components-errors-clouds-1{ 
+	position: absolute;
+	top: 5%;
+	left: 95%;
+}
+
+#components-errors-clouds-2{ 
+	position: absolute;
+	top: 8%;
+	left: 105%;
+}
+
+#components-errors-clouds-3{ 
+	position: absolute;
+	top: 20%;
+	left: 5%;
+}
+
+#components-errors-rocket{ 
+	position: absolute;
+	top: 100%;
+	left: 15%;
+	width: 128px;
+	height: 128px;
+}

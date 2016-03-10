@@ -1,0 +1,190 @@
+#introduction {
+    position: absolute;
+
+	top:0;
+	bottom: 0;
+	left:140px;
+	right: 100px;
+    z-index: 11;
+    background-color: #333;
+    color: #A08E1C;
+    list-style: none;
+    
+    display: none;
+}
+
+#introduction-cont {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+}
+
+#introduction-cont-move {
+    width: 85%;
+    margin: 10px auto;
+}
+
+#introduction-title {
+    width: 70%;
+    height: 70px;
+    margin: 0 auto;
+    font-size: 48px;
+    text-align: center;
+    line-height: 70px;
+}
+
+#introduction-title-2 {
+    width: 70%;
+    height: 70px;
+    margin: 0 auto;
+    font-size: 48px;
+    text-align: center;
+    line-height: 70px;
+}
+
+.introduction-item {
+    margin: 20px 0;
+    line-height: 60px;
+    font-size: 48px;
+    letter-spacing:8px;
+}
+
+#introduction-img-quan {
+    width: 400px;
+    height: 130px;
+    margin: 30px auto;
+    background-image: url(../images/help/quan.png);
+    background-repeat: no-repeat;
+}
+
+#introduction-img-space {
+    width: 200px;
+    height: 70px;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+	margin-left: 30px;
+}
+
+.introduction-img-space {
+    background-image: url(../images/help/space.png);
+}
+
+.introduction-img-space-foucs {
+    background-image: url(../images/help/space.gif);
+}
+
+#introduction-img-esc {
+    width: 200px;
+    height: 64px;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+	margin-left: 30px;
+}
+
+.introduction-img-esc {
+    background-image: url(../images/help/esc.png);
+}
+
+.introduction-img-esc-foucs {
+    background-image: url(../images/help/esc.gif);
+}
+
+#introduction-img-enter {
+    width: 200px;
+    height: 64px;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+	margin-left: 30px;
+}
+
+.introduction-img-enter {
+    background-image: url(../images/help/enter.png);
+}
+
+.introduction-img-enter-foucs {
+    background-image: url(../images/help/enter.gif);
+}
+
+#introduction-img-vertical,
+#introduction-img-cross {
+    width: 200px;
+    height: 64px;
+    margin-top: 10px;
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+
+#introduction-img-up {
+    width: 80px;
+    height: 64px;
+    float: left;
+    background-repeat: no-repeat;
+}
+
+.introduction-img-up {
+    background-image: url(../images/help/up.png);
+}
+
+.introduction-img-up-foucs {
+    background-image: url(../images/help/up.gif);
+}
+
+#introduction-img-down {
+    width: 80px;
+    height: 64px;
+    float: left;
+    background-repeat: no-repeat;
+}
+
+.introduction-img-down {
+    background-image: url(../images/help/down.png);
+}
+
+.introduction-img-down-foucs {
+    background-image: url(../images/help/down.gif);
+}
+
+#introduction-img-left {
+    width: 80px;
+    height: 64px;
+    float: left;
+    background-repeat: no-repeat;
+}
+
+.introduction-img-left {
+    background-image: url(../images/help/left.png);
+}
+
+.introduction-img-left-foucs {
+    background-image: url(../images/help/left.gif);
+}
+
+#introduction-img-right {
+    width: 80px;
+    height: 64px;
+    float: left;
+    background-repeat: no-repeat;
+}
+
+.introduction-img-right {
+    background-image: url(../images/help/right.png);
+}
+
+.introduction-img-right-foucs {
+    background-image: url(../images/help/right.gif);
+}
+
+.reader-foucs {
+    color: #ffff00;
+    line-height: 70px;
+    font-size: 60px !important;
+}
+
+.introduction-item:hover{
+    color: #ffff00;
+    line-height: 70px;
+    font-size: 60px !important;
+}

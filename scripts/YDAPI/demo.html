@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+<title>测试数据接口插件</title>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="scripts/YDAPI.js"></script>
+</head>
+<body>
+
+<div id="yx_config" style="display:none;">
+	<a href="#" id="yx_lid">43</a><a href="#" id="yx_tid"></a><a href="#" id="yx_sid">12342</a>
+	<a href="#" id="yx_lid">43</a><a href="#" id="yx_tid"></a><a href="#" id="yx_sid">12342</a>
+	<a href="http://192.168.1.251/yxsm/index.php?m=apim&a=site" id="yx_siteurl"></a>
+	<a href="http://192.168.1.123/yxsm/index.php?m=apim&a=smap" id="yx_mapurl"></a>
+	<a href="http://192.168.1.123/yxsm/index.php?m=apim&a=hot" id="yx_hoturl"></a>
+	<a href="http://192.168.1.123/yxsm/index.php?m=apim&a=list" id="yx_listurl"></a>
+	<a href="http://192.168.1.123/yxsm/index.php?m=apim&a=art" id="yx_arturl"></a>
+	<a href="http://192.168.1.123/yxsm/index.php?m=apim&a=cate" id="yx_cateurl"></a>
+	<a href="http://192.168.1.123/yxsm/index.php?m=apim&a=more" id="yx_moreurl"></a>
+</div>
+<script type="text/javascript">
+$(function(){
+	var data=new YX.Data();
+	//data.Map(null,function(result,err){
+	//	alert(result);
+	//});
+	//data.List("1",function(result,err){
+	//	
+	//});
+	data.office.Cate(null,null,function(result,err){
+		alert(result);
+		});
+	//data.office.List(6,function(result,err){
+	//	debugger
+	//});
+	//data.office.Art(1,function(result,err){
+	//	debugger
+	//});
+	
+})
+</script>
+</body>    
+</html>

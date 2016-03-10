@@ -1,0 +1,26 @@
+.slider {
+    width: 100%;
+    height: 100%;
+    /* margin: -7px; */
+}
+
+.slider_body {
+    position: absolute;
+}
+
+.slider_bar {
+    width: 100%;
+    height: 100%;
+}
+
+.slider_block {
+    display: block;
+    margin: 0;
+    position: absolute;
+    background-color: #222;
+    cursor: default;
+}
+
+.slider_chapters{
+	display: none;
+}
